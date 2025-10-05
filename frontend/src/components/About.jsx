@@ -71,11 +71,11 @@ export const About = () => {
         {/* Vision Statement */}
         <div className="text-center">
           <Card className="p-8 lg:p-12 bg-gradient-to-r from-blue-600 to-blue-700 text-white border-0 shadow-2xl">
-            <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+            <h3 className="text-2xl lg:text-3xl font-bold mb-6 text-white">
               Expanding Globally, Rooted in Excellence
             </h3>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Led by <strong>Harsh Aggarwal</strong> and powered by India's talented youth, 
+            <p className="text-xl lg:text-2xl text-white font-medium max-w-4xl mx-auto leading-relaxed">
+              Led by <strong className="text-blue-100 font-bold">Harsh Aggarwal</strong> and powered by India's talented youth, 
               we're committed to delivering world-class outsourcing solutions that drive 
               business success across industries.
             </p>
