@@ -75,7 +75,7 @@ export const About = () => {
               Expanding Globally, Rooted in Excellence
             </h3>
             <p className="text-xl lg:text-2xl text-white font-medium max-w-4xl mx-auto leading-relaxed">
-              Led by <strong className="text-blue-100 font-bold">Harsh Aggarwal</strong> and powered by India's talented youth, 
+              Led by <strong className="text-yellow-300 font-bold text-2xl">Harsh Aggarwal</strong> and powered by India's talented youth, 
               we're committed to delivering world-class outsourcing solutions that drive 
               business success across industries.
             </p>
