@@ -80,7 +80,7 @@ export const BookingCalendar = () => {
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Book a free consultation with our experts to discuss your outsourcing needs 
-            and discover how we can help your business grow.
+            and discover how we can help your business grow. <strong className="text-blue-600">Available 24/7</strong> for your convenience.
           </p>
         </div>
 
