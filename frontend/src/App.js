@@ -8,7 +8,6 @@ import { Services } from "./components/Services";
 import { About } from "./components/About";
 import { Testimonials } from "./components/Testimonials";
 import { BookingCalendar } from "./components/Calendar";
-import { Blog } from "./components/Blog";
 import { Footer } from "./components/Footer";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
