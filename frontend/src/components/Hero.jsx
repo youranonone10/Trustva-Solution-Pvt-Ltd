@@ -52,6 +52,7 @@ export const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
+              onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               Get Started Today
@@ -61,6 +62,7 @@ export const Hero = () => {
             <Button 
               variant="outline" 
               size="lg" 
+              onClick={() => document.getElementById('calendar')?.scrollIntoView({ behavior: 'smooth' })}
               className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg rounded-full backdrop-blur-sm transition-all duration-300 hover:scale-105"
             >
               Book Consultation
