@@ -69,17 +69,20 @@ export const About = () => {
         </div>
 
         {/* Vision Statement */}
-        <div className="text-center">
-          <Card className="p-8 lg:p-12 bg-gradient-to-r from-blue-600 to-blue-700 text-white border-0 shadow-2xl">
-            <h3 className="text-2xl lg:text-3xl font-bold mb-6 text-white">
-              Expanding Globally, Rooted in Excellence
-            </h3>
-            <p className="text-xl lg:text-2xl text-white font-medium max-w-4xl mx-auto leading-relaxed">
-              Led by <strong className="text-yellow-300 font-bold text-2xl">Harsh Aggarwal</strong> and powered by India's talented youth, 
-              we're committed to delivering world-class outsourcing solutions that drive 
-              business success across industries.
-            </p>
-          </Card>
+<div className="flex justify-center items-center py-16 px-4 bg-gray-50">
+  <Card className="w-full max-w-6xl text-center p-10 lg:p-14 bg-gradient-to-r from-blue-800 via-blue-700 to-blue-600 text-white border-0 shadow-2xl rounded-2xl relative overflow-hidden">
+    <div className="absolute inset-0 bg-black/20"></div> {/* optional overlay for contrast */}
+    <div className="relative z-10">
+      <h3 className="text-3xl lg:text-4xl font-bold mb-6">
+        Expanding Globally, Rooted in Excellence
+      </h3>
+      <p className="text-lg lg:text-2xl font-medium leading-relaxed max-w-4xl mx-auto">
+        Led by <span className="text-blue-200 font-semibold">Harsh Aggarwal</span> 
+         and powered by India’s talented youth, we’re committed to delivering 
+        world-class outsourcing solutions that drive business success across industries.
+      </p>
+    </div>
+  </Card>
         </div>
       </div>
     </section>
