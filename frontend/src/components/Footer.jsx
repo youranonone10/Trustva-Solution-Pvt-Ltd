@@ -142,7 +142,7 @@ export const Footer = () => {
           {/* Newsletter & Legal */}
           <div>
             <h3 className="text-xl font-bold mb-6 text-white">Stay Updated</h3>
-            <p className="text-slate-300 mb-4">
+            <p className="text-white font-medium mb-4">
               Subscribe to our newsletter for industry insights and updates.
             </p>
             
