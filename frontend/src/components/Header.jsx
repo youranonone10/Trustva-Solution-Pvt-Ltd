@@ -120,7 +120,10 @@ export const Header = () => {
                   <Mail className="w-4 h-4" />
                   <span>info@trustva.com</span>
                 </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg">
+                <Button 
+                  onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg"
+                >
                   Get Started
                 </Button>
               </div>
