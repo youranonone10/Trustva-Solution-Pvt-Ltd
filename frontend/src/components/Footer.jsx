@@ -165,7 +165,7 @@ export const Footer = () => {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-sm text-slate-400 hover:text-blue-400 transition-colors duration-200"
+                    className="text-sm text-slate-200 font-medium hover:text-blue-400 transition-colors duration-200"
                   >
                     {link.name}
                   </a>
