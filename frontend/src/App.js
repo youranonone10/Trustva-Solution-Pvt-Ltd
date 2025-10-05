@@ -52,10 +52,6 @@ const LandingPage = () => {
         <section id="calendar">
           <BookingCalendar />
         </section>
-        
-        <section id="blog">
-          <Blog />
-        </section>
       </main>
       
       <Footer />
