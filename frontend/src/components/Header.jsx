@@ -19,8 +19,7 @@ export const Header = () => {
     { name: 'Services', href: '#services' },
     { name: 'About', href: '#about' },
     { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Book Consultation', href: '#calendar' },
-    { name: 'Blog', href: '#blog' }
+    { name: 'Book Consultation', href: '#calendar' }
   ];
 
   return (
