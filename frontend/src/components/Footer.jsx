@@ -127,7 +127,7 @@ export const Footer = () => {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-slate-300 hover:text-blue-400 transition-colors duration-200 flex items-center group"
+                    className="text-white font-medium hover:text-blue-400 transition-colors duration-200 flex items-center group"
                   >
                     <ArrowRight className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" />
                     <span className="group-hover:translate-x-2 transition-transform duration-200">
