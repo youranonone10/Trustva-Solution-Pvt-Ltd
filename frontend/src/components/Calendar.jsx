@@ -148,14 +148,11 @@ export const BookingCalendar = () => {
                     <Button
                       key={index}
                       variant={selectedTime === slot.time ? "default" : "outline"}
-                      disabled={!slot.available}
                       onClick={() => handleTimeSelect(slot.time)}
                       className={`p-3 text-sm ${
                         selectedTime === slot.time 
                           ? 'bg-blue-600 text-white' 
-                          : slot.available 
-                            ? 'border-2 border-slate-200 text-slate-700 hover:border-blue-500 hover:text-blue-600' 
-                            : 'opacity-50 cursor-not-allowed'
+                          : 'border-2 border-slate-200 text-slate-700 hover:border-blue-500 hover:text-blue-600'
                       }`}
                     >
                       {slot.time}
