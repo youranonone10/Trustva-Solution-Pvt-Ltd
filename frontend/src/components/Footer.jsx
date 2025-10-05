@@ -53,7 +53,7 @@ export const Footer = () => {
               <h2 className="text-3xl font-bold mb-4">
                 Trust<span className="text-blue-400">VA</span>
               </h2>
-              <p className="text-slate-300 leading-relaxed">
+              <p className="text-white leading-relaxed font-medium">
                 Pioneering outsourcing services from India since 2023. 
                 Expert virtual assistance for businesses worldwide.
               </p>
@@ -61,19 +61,19 @@ export const Footer = () => {
             
             {/* Contact Info */}
             <div className="space-y-3 mb-6">
-              <div className="flex items-center text-slate-300">
+              <div className="flex items-center text-white font-medium">
                 <MapPin className="w-5 h-5 mr-3 text-blue-400" />
                 <span>India</span>
               </div>
-              <div className="flex items-center text-slate-300">
+              <div className="flex items-center text-white font-medium">
                 <Phone className="w-5 h-5 mr-3 text-blue-400" />
                 <span>+91-XXX-XXX-XXXX</span>
               </div>
-              <div className="flex items-center text-slate-300">
+              <div className="flex items-center text-white font-medium">
                 <Mail className="w-5 h-5 mr-3 text-blue-400" />
                 <span>info@trustva.com</span>
               </div>
-              <div className="flex items-center text-slate-300">
+              <div className="flex items-center text-white font-medium">
                 <Globe className="w-5 h-5 mr-3 text-blue-400" />
                 <span>www.trustva.com</span>
               </div>
