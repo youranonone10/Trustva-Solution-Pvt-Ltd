@@ -107,7 +107,7 @@ export const Footer = () => {
                 <li key={service.name}>
                   <a
                     href={service.href}
-                    className="flex items-center text-slate-300 hover:text-blue-400 transition-colors duration-200 group"
+                    className="flex items-center text-white font-medium hover:text-blue-400 transition-colors duration-200 group"
                   >
                     <service.icon className="w-4 h-4 mr-3 text-blue-400 group-hover:scale-110 transition-transform duration-200" />
                     <span className="group-hover:translate-x-1 transition-transform duration-200">
